@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { Amplify } from "aws-amplify";
+import amplifyconfig from "./amplifyconfiguration.json";
+Amplify.configure(amplifyconfig);
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
