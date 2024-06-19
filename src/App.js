@@ -9,7 +9,8 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Version 2 updated</p>
+        <p className="font-extrabold">Peter Shin's Photo Site</p>
+        <p className="text-sm">Coming soon</p>
       </header>
     </div>
   );
